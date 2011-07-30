@@ -4,17 +4,15 @@ Logfile initialized
 [INFO] Building TitaniumIntentTest for Android ... one moment
 [INFO] Titanium SDK version: 1.7.1 (06/21/11 14:28 1293a6d)
 [DEBUG] Waiting for device to be ready ...
-[TRACE] adb devices returned 2 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
 [DEBUG] Device connected... (waited 0 seconds)
-[DEBUG] waited 0.014617 seconds on emulator to get ready
+[DEBUG] waited 0.010723 seconds on emulator to get ready
 [DEBUG] net.kurain.titanium.intenttest installed? True
 [INFO] Fastdev server running, deploying in Fastdev mode
 [INFO] Copying project resources..
-[TRACE] COPYING MODIFIED FILE: /Users/r_kurain/Documents/Titanium Studio Workspace/TitaniumIntentTest/Resources/app.js => /Users/r_kurain/Documents/Titanium Studio Workspace/TitaniumIntentTest/build/android/bin/assets/Resources/app.js
 [TRACE] COPYING MODIFIED FILE: /Users/r_kurain/Documents/Titanium Studio Workspace/TitaniumIntentTest/Resources/intent_test.js => /Users/r_kurain/Documents/Titanium Studio Workspace/TitaniumIntentTest/build/android/bin/assets/Resources/intent_test.js
 [INFO] Tiapp.xml unchanged, skipping class generation
 [DEBUG] Processing Android resource drawables
-[DEBUG] found special platform files dir = /Users/r_kurain/Documents/Titanium Studio Workspace/TitaniumIntentTest/platform/android
 [DEBUG] found drawable-long-land-hdpi splash screen at /Users/r_kurain/Documents/Titanium Studio Workspace/TitaniumIntentTest/Resources/android/images/res-long-land-hdpi/default.png
 [DEBUG] found drawable-long-land-ldpi splash screen at /Users/r_kurain/Documents/Titanium Studio Workspace/TitaniumIntentTest/Resources/android/images/res-long-land-ldpi/default.png
 [DEBUG] found drawable-long-port-hdpi splash screen at /Users/r_kurain/Documents/Titanium Studio Workspace/TitaniumIntentTest/Resources/android/images/res-long-port-hdpi/default.png
@@ -25,9 +23,9 @@ Logfile initialized
 [DEBUG] found drawable-notlong-port-hdpi splash screen at /Users/r_kurain/Documents/Titanium Studio Workspace/TitaniumIntentTest/Resources/android/images/res-notlong-port-hdpi/default.png
 [DEBUG] found drawable-notlong-port-ldpi splash screen at /Users/r_kurain/Documents/Titanium Studio Workspace/TitaniumIntentTest/Resources/android/images/res-notlong-port-ldpi/default.png
 [DEBUG] found drawable-notlong-port-mdpi splash screen at /Users/r_kurain/Documents/Titanium Studio Workspace/TitaniumIntentTest/Resources/android/images/res-notlong-port-mdpi/default.png
-[INFO] Detected custom ApplicationManifest.xml -- no Titanium version migration supported
 [INFO] Waiting for SDCard to become available..
 [INFO] Re-launching application ... TitaniumIntentTest
 [INFO] Launching application ... TitaniumIntentTest
 [TRACE] Launch output: Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=net.kurain.titanium.intenttest/.TitaniumintenttestActivity }
+Warning: Activity not started, its current task has been brought to the front
 

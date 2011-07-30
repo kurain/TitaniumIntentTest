@@ -67,5 +67,6 @@ tabGroup.open();
 var receiveIntent = Ti.Android.currentActivity.getIntent();
 if (receiveIntent) { 
   Ti.API.debug(Ti.Android.EXTRA_TEXT);
-  alert(receiveIntent.getStringExtra(Ti.Android.EXTRA_TEXT));
+  if(receiveIntent.getStringExtra(Ti.Android.EXTRA_TEXT)	)
+  	alert(receiveIntent.getStringExtra(Ti.Android.EXTRA_TEXT));
 }

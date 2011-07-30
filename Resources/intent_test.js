@@ -73,3 +73,24 @@ button3.addEventListener(
 	}
 );
 win.add(button3);
+
+var button4 = Ti.UI.createButton({
+	width: '100dp',
+	heigth: '50dp',
+	top: '210dp',
+	left: '10dp',
+	title: 'Service Start'
+})
+
+button4.addEventListener(
+	'click',
+	function(){
+		Ti.API.debug('create intent');
+		var intent = Titanium.Android.createServiceIntent( { url: 'testservice.js' } );
+		intent.putExtra('interval', 1000000);
+		intent.putExtra('download_url', 'http://cdn-ak.f.st-hatena.com/images/fotolife/r/r_kurain/20090818/20090818232053.jpg');
+		var service = Titanium.Android.createService(intent);
+		service.start();
+	}
+);
+win.add(button4);
