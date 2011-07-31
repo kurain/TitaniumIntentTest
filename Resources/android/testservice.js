@@ -6,7 +6,9 @@ Ti.API.debug("Try Download: " + url);
 
 var xhr = Ti.Network.createHTTPClient();
 
-function showNotification(modified){
+function showNotification(opt){
+	opt = opt || {};
+	var modified = opt.modified;
 	Ti.API.info('start notification');
 	var twitter_url = 'http://twitter.com/' + twitter_id;
 	var intent = Ti.Android.createIntent({
@@ -32,10 +34,10 @@ xhr.onload = function () {
     var last_id = Ti.App.Properties.getString('last_tweet_id');
     Ti.API.info([tweet_id, last_id]);
     if (last_id && last_id == tweet_id ) {
-    	showNotification(false);
+    	showNotification({modified:false});
     } else {
     	Ti.App.Properties.setString('last_tweet_id',tweet_id);
-    	showNotification(true);
+    	showNotification({modified:true});
     }
 };
 xhr.open('GET', url);
