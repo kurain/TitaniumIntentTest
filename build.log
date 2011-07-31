@@ -6,11 +6,11 @@ Logfile initialized
 [DEBUG] Waiting for device to be ready ...
 [TRACE] adb devices returned 1 devices/emulators
 [DEBUG] Device connected... (waited 0 seconds)
-[DEBUG] waited 0.010723 seconds on emulator to get ready
+[DEBUG] waited 0.015752 seconds on emulator to get ready
 [DEBUG] net.kurain.titanium.intenttest installed? True
 [INFO] Fastdev server running, deploying in Fastdev mode
 [INFO] Copying project resources..
-[TRACE] COPYING MODIFIED FILE: /Users/r_kurain/Documents/Titanium Studio Workspace/TitaniumIntentTest/Resources/intent_test.js => /Users/r_kurain/Documents/Titanium Studio Workspace/TitaniumIntentTest/build/android/bin/assets/Resources/intent_test.js
+[TRACE] COPYING MODIFIED FILE: /Users/r_kurain/Documents/Titanium Studio Workspace/TitaniumIntentTest/Resources/android/testservice.js => /Users/r_kurain/Documents/Titanium Studio Workspace/TitaniumIntentTest/build/android/bin/assets/Resources/testservice.js
 [INFO] Tiapp.xml unchanged, skipping class generation
 [DEBUG] Processing Android resource drawables
 [DEBUG] found drawable-long-land-hdpi splash screen at /Users/r_kurain/Documents/Titanium Studio Workspace/TitaniumIntentTest/Resources/android/images/res-long-land-hdpi/default.png
@@ -29,3 +29,4 @@ Logfile initialized
 [TRACE] Launch output: Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=net.kurain.titanium.intenttest/.TitaniumintenttestActivity }
 Warning: Activity not started, its current task has been brought to the front
 
+[DEBUG] signal caught: 15
